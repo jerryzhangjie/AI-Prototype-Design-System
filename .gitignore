@@ -2,6 +2,7 @@ node_modules/
 logs/
 temp/
 dist/
+projects/
 .env
 *.log
 .DS_Store

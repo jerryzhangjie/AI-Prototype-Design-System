@@ -1,0 +1,20 @@
+{
+  "name": "hr-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 3002",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^2.7.14",
+    "vue-router": "^3.6.5"
+  },
+  "devDependencies": {
+    "vite-plugin-vue2": "^2.0.3",
+    "vite": "^4.5.0",
+    "less": "^4.2.0",
+    "pnpm": "^10.0.0"
+  }
+}

@@ -2,7 +2,9 @@ node_modules/
 logs/
 temp/
 dist/
-projects/
+projects/*/node_modules/
+projects/*/.vite/
 .env
 *.log
 .DS_Store
+.pnpm-store/

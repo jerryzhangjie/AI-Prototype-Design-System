@@ -1,0 +1,36 @@
+{
+  "name": "ai-prototype-design-system",
+  "version": "1.0.0",
+  "description": "AI原型设计系统 - 根据设计需求生成Vue2项目",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node tests/unit/*.test.js",
+    "lint": "eslint src/",
+    "clean": "rm -rf logs/* temp/*"
+  },
+  "keywords": [
+    "ai",
+    "prototype",
+    "design",
+    "vue2",
+    "opencode"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@opencode-ai/sdk": "^1.2.24",
+    "archiver": "^6.0.1",
+    "dotenv": "^16.0.3",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/ai-prototype-design-system"
+  }
+}
